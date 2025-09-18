@@ -15,7 +15,7 @@ function install() {
 
   local tmp_download_dir=$(mktemp -d)
   local repo="elixir-lsp/elixir-ls"
-  local download_filename="elixir-ls-v${version}.zip"
+  local download_filename="elixir-ls.zip"
   local download_url="https://github.com/${repo}/releases/download/v${version}/${download_filename}"
 
   mkdir -p "${tmp_download_dir}"
